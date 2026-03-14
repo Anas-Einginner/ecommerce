@@ -258,14 +258,7 @@ class OrderController extends Controller
         title="عرض الطلب">
         <i class="bi bi-eye-fill"></i>
     </a>';
-                // ✏️ تعديل
-                $btns[] = '<a ' . $data_attr . '
-        data-bs-toggle="modal"
-        data-bs-target="#update-modal"
-        class="text-warning update_btn"
-        title="تعديل">
-        <i class="bi bi-pencil-fill"></i>
-    </a>';
+
 
 
 

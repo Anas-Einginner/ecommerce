@@ -89,7 +89,7 @@ class ProfileController extends Controller
             $profileData
         );
 
-        return Redirect::route('dash.profile.index')
+        return Redirect::route('dash.profile.view')
             ->with('success', 'تم تحديث الملف الشخصي بنجاح.');
 
 

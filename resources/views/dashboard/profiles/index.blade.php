@@ -33,7 +33,7 @@
 
             <form id="profileForm" method="POST" action="{{ route('dash.profile.update') }}" enctype="multipart/form-data">
                 @csrf
-                @method('PATCH')
+             
 
                 <div class="row g-3">
                     <div class="col-12">
